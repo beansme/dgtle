@@ -58,7 +58,7 @@ class GetNew extends Command {
 
 		}
 
-
+		Log::info('start');
 
 		if($count = count($products)) {
 
