@@ -92,7 +92,7 @@ class GetNew extends Command {
 				 		}
 
 			}
-			Cache::put('last_send', $products[0]['id'], 60);
+			Cache::put('last_send', $products[0]['id'], 2000);
 			unset($products);
 		}
 	}
