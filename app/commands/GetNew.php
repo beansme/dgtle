@@ -58,7 +58,6 @@ class GetNew extends Command {
 
 		}
 
-		Log::info('start_at', date('Y-m-d h:i:s'));
 
 
 		if($count = count($products)) {
