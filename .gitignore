@@ -1,0 +1,17 @@
+/bootstrap/compiled.php
+/vendor
+/public/app/assets/bower_components
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+.idea
+Thumbs.db
+public/common/bower_components
+public/node_modules
+node_modules
+public/npm-debug.log
+sftp-config.json
+_ide_helper.php
+deploy.sh

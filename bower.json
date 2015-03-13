@@ -1,0 +1,25 @@
+{
+  "name": "weazm frontend boilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "Bryant <bryantandk@gmail.com>"
+  ],
+  "description": "weazm frontend boilerplate",
+  "keywords": [
+    "weazm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "zepto-full": "~1.1.2",
+    "amazeui": "~1.0.1"
+  }
+}
