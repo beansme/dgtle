@@ -58,6 +58,8 @@ class GetNew extends Command {
 
 		}
 
+		Log::info('start_at', date());
+
 
 		if($count = count($products)) {
 
@@ -84,7 +86,7 @@ class GetNew extends Command {
 							]	
 						];
 
-						Log::info($data);
+						Log::info($product['id']);
 
 				 		if( ! Wechat::sendTemplateMessage($data) ) {
 				 			Log::info($product['id'] . 'send error: ' . Wechat::getErrCode() . Wechat::getErrMsg());
