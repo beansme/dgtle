@@ -69,10 +69,10 @@ class MainController extends \BaseController {
 							]	
 						];
 
-						Log::info($data);
+						// Log::info($data);
 
 				 		if( ! Wechat::sendTemplateMessage($data) ) {
-				 			Log::info($product['id'] . 'send error: ' . Wechat::getErrCode() . Wechat::getErrMsg());
+				 			// Log::info($product['id'] . 'send error: ' . Wechat::getErrCode() . Wechat::getErrMsg());
 				 		}
 
 			}
